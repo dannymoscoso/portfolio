@@ -9,12 +9,14 @@ import { Skills } from "./Main/Skills"
 import { School } from "./Main/School"
 import { ContactForm } from "./Main/Contact"
 import { dark } from "./colors"
+import { Typography } from "@mui/material"
+import { Portfolio } from "./Main/Portfolio"
 
 export default function Main() {
   return (
     <>
       {/* <Nav /> */}
-      <div style={{ display: "grid", backgroundColor: dark }}>
+      <div style={{ display: "grid" }}>
         <div
           style={{
             gridArea: "1 / 1",
@@ -36,12 +38,13 @@ export default function Main() {
               justifyContent: "center",
               alignItems: "center",
               textAlign: "center",
-              color: "white",
             }}
           >
             <div style={{ padding: "1em" }}>
-              <h1>Danny Moscoso</h1>
-              <h1>Cyber Security Expert and Full Stack Developer</h1>
+              <Typography variant="h1">Danny Moscoso</Typography>
+              <Typography variant="h1">
+                Cyber Security Expert and Full Stack Developer
+              </Typography>
             </div>
           </div>
         </div>
@@ -52,6 +55,7 @@ export default function Main() {
       <Skills />
       <Experience />
       <School />
+      <Portfolio />
 
       {/* <CodingBackground /> */}
       <ContactForm />

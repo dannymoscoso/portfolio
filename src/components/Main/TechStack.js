@@ -13,22 +13,22 @@ export const TechStack = () => {
     <div>
       <Grid container justifyContent={"center"}>
         <Grid item xs={6} md={3} xl={2}>
-          <img src={awslogo} height={"50em"} />
+          <img alt="" src={awslogo} height={"50em"} />
         </Grid>
         <Grid item xs={6} md={3} xl={2}>
-          <img src={nodejslogo} height={"50em"} />
+          <img alt="" src={nodejslogo} height={"50em"} />
         </Grid>
         <Grid item xs={6} md={3} xl={2}>
-          <img src={reactlogo} height={"50em"} />
+          <img alt="" src={reactlogo} height={"50em"} />
         </Grid>
         <Grid item xs={6} md={3} xl={2}>
-          <img src={pythonlogo} height={"50em"} />
+          <img alt="" src={pythonlogo} height={"50em"} />
         </Grid>
         <Grid item xs={6} md={3} xl={2}>
-          <img src={terraformlogo} height={"50em"} />
+          <img alt="" src={terraformlogo} height={"50em"} />
         </Grid>
         <Grid item xs={6} md={3} xl={2}>
-          <img src={linuxlogo} height={"50em"} />
+          <img alt="" src={linuxlogo} height={"50em"} />
         </Grid>
       </Grid>
     </div>

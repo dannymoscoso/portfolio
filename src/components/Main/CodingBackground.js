@@ -1,6 +1,4 @@
-import { CardContent, Container, Grid, Paper } from "@mui/material"
-import coding from "../../images/coding.jpg"
-import PersonIcon from "@mui/icons-material/Person"
+import { CardContent, Container, Grid, Paper, Typography } from "@mui/material"
 
 import React from "react"
 
@@ -15,16 +13,12 @@ export const CodingBackground = () => {
         <div>
           <Grid container>
             <Grid item sm={12} md={12} lg={6}>
-              <h1>Background</h1>
+              <Typography variant="h1">Background</Typography>
             </Grid>
             <Grid item sm={12} md={12} lg={6}>
-              <Paper
-                style={{
-                  margin: "1em",
-                }}
-              >
+              <Paper>
                 <CardContent>
-                  <p>
+                  <Typography variant="p">
                     Discovered my fascination with technology early on, delving
                     into the intricacies of computer builds and playfully
                     exploring the world of "hacking" video games. Transitioned
@@ -33,7 +27,7 @@ export const CodingBackground = () => {
                     Concurrently, I worked at an electronics store, providing
                     financial support as I immersed myself in the dynamic field
                     of cybersecurity.
-                  </p>
+                  </Typography>
                 </CardContent>
               </Paper>
             </Grid>

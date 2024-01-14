@@ -1,13 +1,20 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
-import Seo from "../components/seo"
 import Main from "../components/Main"
+import { ThemeProvider } from "@mui/material"
+import { theme } from "../components/theme"
+import { CssBaseline } from "@mui/material"
+import Navbar from "../components/Nav"
+import Footer from "../components/Footer"
 
 const IndexPage = () => {
-  return <Main />
+  return (
+    <ThemeProvider theme={theme}>
+      <Navbar />
+      <CssBaseline />
+      <Main />
+      <Footer />
+    </ThemeProvider>
+  )
 }
 
 /**

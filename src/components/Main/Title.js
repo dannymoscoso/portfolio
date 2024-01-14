@@ -1,22 +1,13 @@
 import React from "react"
 export const Title = () => {
   return (
-    // <svg
-    //   xmlns="http://www.w3.org/2000/svg"
-    //   viewBox="0 0 100 100"
-    //   width="100vw"
-    //   height="100vh"
-    //   // style={svgStyle}
-    // >
-    //   fuck
-    // </svg>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       style={{ height: "100vh", width: "100vw" }}
     >
       <rect fill="#000000" width="100%" height="100%" />
 
-      <circle fill="none" stroke="#004474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#14ad47" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;50%;0%"
@@ -24,7 +15,7 @@ export const Title = () => {
           repeatCount="indefinite"
         />
       </circle>
-      <circle fill="none" stroke="#114474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#002E00" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;10%;0%"
@@ -32,7 +23,7 @@ export const Title = () => {
           repeatCount="indefinite"
         />
       </circle>
-      <circle fill="none" stroke="#224474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#004700" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;54%;0%"
@@ -40,7 +31,7 @@ export const Title = () => {
           repeatCount="indefinite"
         />
       </circle>
-      <circle fill="none" stroke="#334474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#006100" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;56%;0%"
@@ -48,7 +39,7 @@ export const Title = () => {
           repeatCount="indefinite"
         />
       </circle>
-      <circle fill="none" stroke="#664474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#007A14" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;58%;0%"
@@ -57,7 +48,7 @@ export const Title = () => {
         />
       </circle>
 
-      <circle fill="none" stroke="#DD4474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#00942E" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;40%;0%"
@@ -65,7 +56,7 @@ export const Title = () => {
           repeatCount="indefinite"
         />
       </circle>
-      <circle fill="none" stroke="#FF4474" cx="50%" cy="50%" r="50%">
+      <circle fill="none" stroke="#14ad47" cx="50%" cy="50%" r="50%">
         <animate
           attributeName="r"
           values="0%;10%;0%"

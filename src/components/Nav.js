@@ -6,6 +6,10 @@ import {
   Typography,
   useTheme,
   useMediaQuery,
+  Link,
+  Button,
+  Box,
+  Grid,
 } from "@mui/material"
 import { navigate } from "gatsby"
 import DrawerComponent from "./Drawer"
@@ -38,26 +42,35 @@ function Navbar() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"))
 
   return (
-    <AppBar
-      position="static"
-      style={{ backgroundColor: dark, border: "1px solid green" }}
-    >
+    <AppBar position="static">
       <Toolbar>
-        <h1
+        <Typography
+          variant="h2"
           onClick={() => {
             navigate("/")
           }}
         >
-          TSC
-        </h1>
+          DM
+        </Typography>
 
         {isMobile ? (
-          <DrawerComponent />
+          <Grid container justifyContent="right">
+            <Grid item>
+              <DrawerComponent />
+            </Grid>
+          </Grid>
         ) : (
-          <div>
-            {/* <Link to="/contact">Contact</Link> */}
-            {/* <Link to="/faq">FAQ</Link> */}
-          </div>
+          <Grid container justifyContent="right">
+            <Grid item>
+              <Button
+                onClick={() => {
+                  navigate("/projects")
+                }}
+              >
+                Projects
+              </Button>
+            </Grid>
+          </Grid>
         )}
       </Toolbar>
     </AppBar>
